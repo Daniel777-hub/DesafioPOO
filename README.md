@@ -1,32 +1,46 @@
-# DesafioControleFluxo
+# DesafioPOO - iPhone
 
-Este é o repositório para o DesafioControleFluxo, um desafio concluído com sucesso na plataforma Dio (Digital Innovation One).
+Este é o repositório para o DesafioPOO, um desafio de modelagem e implementação orientada a objetos inspirado no iPhone.
 
 ## Descrição do Desafio
 
-O DesafioControleFluxo é um exercício que envolve o uso de controle de fluxo em Java. O sistema deve receber dois parâmetros via terminal, que representam dois números inteiros. Com esses dois números, o programa deve realizar a seguinte tarefa:
+O DesafioPOO consiste em modelar e implementar as funcionalidades de um iPhone, representando-o em três papéis principais: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet. Cada papel tem suas próprias funcionalidades:
 
-- Calcular a diferença entre os dois números e determinar a quantidade de iterações (usando um loop for) necessárias para imprimir os números incrementados. Por exemplo, se os números fornecidos forem 12 e 30, o programa deve imprimir os números de 12 a 30, ou seja, "Imprimindo o número 12", "Imprimindo o número 13", e assim por diante, até "Imprimindo o número 30".
+### Reprodutor Musical:
 
-Além disso, o programa deve tratar a seguinte exceção:
+- Tocar música.
+- Pausar música.
+- Selecionar uma música para tocar.
 
-- Se o primeiro parâmetro for MAIOR que o segundo parâmetro, o programa deve lançar uma exceção customizada chamada `ParametrosInvalidosException` com a mensagem: "O segundo parâmetro deve ser maior que o primeiro".
+### Aparelho Telefônico:
 
-## Resolução
+- Ligar para um número.
+- Atender chamadas.
+- Iniciar uma conversa por voz.
 
-Neste repositório, você encontrará a implementação em Java que resolve o DesafioControleFluxo. O código está organizado da seguinte forma:
+### Navegador na Internet:
 
-- A classe `Contador.java` contém a implementação principal do programa, incluindo a lógica para calcular a diferença entre os parâmetros e imprimir os números incrementados.
+- Exibir uma página da web.
+- Adicionar uma nova aba.
+- Atualizar uma página.
 
-- A classe `ParametrosInvalidosException` representa a exceção customizada que é lançada quando os parâmetros são inválidos.
+## Diagrama UML
+
+O diagrama UML que representa a estrutura das classes e interfaces do iPhone pode ser encontrado na pasta `uml` deste repositório.
+
+## Implementação
+
+Neste repositório, você encontrará a implementação em Java do iPhone, de acordo com o diagrama UML proposto. O código está organizado da seguinte forma:
+
+- As classes `iPhone`, `ReprodutorMusical`, `AparelhoTelefonico` e `NavegadorInternet` implementam as funcionalidades descritas para cada papel do iPhone.
 
 ## Como Executar
 
 Para executar este projeto localmente, siga estas etapas:
 
 1. Clone este repositório em sua máquina local.
-2. Compile o código Java usando seu IDE favorito ou o comando `javac Contador.java` no terminal.
-3. Execute o programa com os dois parâmetros fornecidos via terminal, por exemplo: `java Contador 12 30`.
+2. Compile o código Java usando seu IDE favorito ou o comando apropriado no terminal.
+3. Execute o programa para testar as funcionalidades do iPhone.
 
 ## Contribuições
 
@@ -44,4 +58,4 @@ Este desafio foi concluído como parte de um projeto na plataforma [Dio (Digital
 
 ## Licença
 
-Este projeto é licenciado sob a [Dio (Digital Innovation One)](https://digitalinnovation.one/) © 2023 
+Este projeto é licenciado sob a [Dio (Digital Innovation One)](https://digitalinnovation.one/) © 2023
